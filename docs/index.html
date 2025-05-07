@@ -6,17 +6,17 @@
   <title>AI Toolkit</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    /* Custom neon accent */
+    /* Custom neon accent based on MCDS colors (Red) */
     .neon-text {
-      color: #39FF14;
-      text-shadow: 0 0 4px #39FF14, 0 0 8px #39FF14;
+      color: #FF0000;
+      text-shadow: 0 0 4px #FF0000, 0 0 8px #FF0000;
     }
     .neon-button {
-      @apply bg-transparent border-2 border-[#39FF14] rounded-lg px-4 py-2 neon-text;
+      @apply bg-transparent border-2 border-[#FF0000] rounded-lg px-4 py-2 neon-text;
       transition: box-shadow 0.3s;
     }
     .neon-button:hover {
-      box-shadow: 0 0 8px #39FF14, 0 0 16px #39FF14;
+      box-shadow: 0 0 8px #FF0000, 0 0 16px #FF0000;
     }
   </style>
 </head>
@@ -42,7 +42,7 @@
         <div class="bg-gray-800 h-64 flex items-center justify-center rounded-lg">
           <span class="text-6xl">🖼️</span>
         </div>
-        <button class="absolute inset-0 m-auto w-16 h-16 bg-[#39FF14] bg-opacity-80 rounded-full flex items-center justify-center text-gray-900 hover:scale-105 transition">
+        <button class="absolute inset-0 m-auto w-16 h-16 bg-[#FF0000] bg-opacity-80 rounded-full flex items-center justify-center text-gray-900 hover:scale-105 transition">
           ▶️
         </button>
       </div>
@@ -57,19 +57,19 @@
   <section id="features" class="py-16 bg-gray-800">
     <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
       <!-- Card 1 -->
-      <div class="bg-gray-700 p-8 rounded-xl text-center neon-text hover:shadow-lg hover:shadow-[#39FF14] transition">
+      <div class="bg-gray-700 p-8 rounded-xl text-center neon-text hover:shadow-lg hover:shadow-[#FF0000] transition">
         <div class="text-6xl mb-4">🖼️</div>
         <h3 class="text-2xl font-semibold mb-2">What Is AI?</h3>
         <p class="text-gray-300">Learn the basics of artificial intelligence.</p>
       </div>
       <!-- Card 2 -->
-      <div class="bg-gray-700 p-8 rounded-xl text-center neon-text hover:shadow-lg hover:shadow-[#39FF14] transition">
+      <div class="bg-gray-700 p-8 rounded-xl text-center neon-text hover:shadow-lg hover:shadow-[#FF0000] transition">
         <div class="text-6xl mb-4">🖼️</div>
         <h3 class="text-2xl font-semibold mb-2">Classroom Tools</h3>
         <p class="text-gray-300">Discover AI tools for educators.</p>
       </div>
       <!-- Card 3 -->
-      <div class="bg-gray-700 p-8 rounded-xl text-center neon-text hover:shadow-lg hover:shadow-[#39FF14] transition">
+      <div class="bg-gray-700 p-8 rounded-xl text-center neon-text hover:shadow-lg hover:shadow-[#FF0000] transition">
         <div class="text-6xl mb-4">🖼️</div>
         <h3 class="text-2xl font-semibold mb-2">Subject Guides</h3>
         <p class="text-gray-300">Subject-specific AI integration guides.</p>
