@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subject Guides - AI Toolkit</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            purple: {
+              400: '#c026d3',
+              600: '#9333ea',
+            },
+            cyan: {
+              400: '#22d3ee',
+              600: '#0891b2',
+            },
+            pink: {
+              400: '#f472b6',
+            },
+          },
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="min-h-screen bg-gray-950 text-white relative overflow-hidden">
+  <!-- Animated Background -->
+  <canvas id="particles-canvas" class="particles absolute inset-0 z-0"></canvas>
+
+  <!-- Content -->
+  <div class="relative z-10">
+    <!-- Navigation -->
+    <nav class="bg-gray-900 border-b border-gray-800 sticky top-0 z-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-16">
+          <div class="flex items-center">
+            <a href="index.html" class="flex-shrink-0 flex items-center">
+              <span class="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400">
+                AI Toolkit
+              </span>
+            </a>
+          </div>
+
+          <!-- Desktop navigation -->
+          <div class="hidden md:flex md:items-center md:space-x-4">
+            <a href="what-is-ai.html" class="px-3 py-2 text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-800
